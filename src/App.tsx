@@ -1,10 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
+import { RepositoryList } from './components/RepositoryList';
 
 function App() {
   return (
     <>
+      <RepositoryList/>
     
     </>
   );
